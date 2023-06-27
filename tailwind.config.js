@@ -6,17 +6,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'dragon': "linear-gradient(90deg, #000 3.13%, rgba(0, 0, 0, 0.07) 100%), url('/dragon.png')",
       },
       colors: {
-        'gray': '#E2E2E2',
-        'red-dragon': '#FF0000',
-        'white': '#FFFFFF',
+        'gray': "#E2E2E2",
+        'red-dragon': "#FF0000",
+        'text-white': "#F1F1F1",
+        'white': "#FFFFFF",
       },
       fontFamily: {
-        'sans': ['Bebas\\ Neue', 'Poppins']
+        'sans': ['Bebas\\ Neue', 'Poppins', 'sans-serif']
       }
     },
   },
