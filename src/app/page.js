@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Header from './components/header'
+import Footer from './components/footer'
 
 export default function Home() {
   return (
@@ -41,6 +42,7 @@ export default function Home() {
             <h1 class="mt-[258px]">UP</h1>
           </div>
         </div>
+        <Footer />
       </div>
     </main>
   )
